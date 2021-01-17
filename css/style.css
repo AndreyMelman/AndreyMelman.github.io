@@ -524,3 +524,20 @@ li {
   padding: 8px 0;
   font-weight: 400;
 }
+#modal{
+  width: 300px;
+}
+#modal input{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+#modal input[type="submit"]{
+  background-color: #ffc222;
+  border: none;
+}
