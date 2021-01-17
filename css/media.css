@@ -1,3 +1,74 @@
+@media (max-width: 1150px){
+  .services__items{
+    display: block;
+  }
+  .services__item{
+    max-width: 80%;
+    min-height: 330px;
+    margin: 30px auto;
+  }
+  .gallery{
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 1050px){
+  .footer__inner{
+    display: block;
+  }
+  .footer__map{
+    width: 100%;
+  }
+  .footer__info{
+    margin-bottom: 25px;
+    max-width: 545px;
+  }
+}
+@media (max-width: 900px){
+  .services__top{
+    display: block;
+  }
+  .services__title-box{
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .services__title-box::before{
+    display: none;
+  }
+  .services__btn{
+    text-align: center;
+  }
+  .form__inner{
+    background-image: none;
+  }
+  .form__title-box{
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .form__title-box::before{
+    display: none;
+  }
+  .form__btn-r{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .advantages__inner{
+    display: block;
+  }
+  .advantages__item{
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .gallery__title-box{
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .gallery__title-box::before{
+    display: none;
+  }
+}
 @media (max-width: 700px){
   .header__btn{
     float: none;
@@ -7,6 +78,9 @@
   }
   .header__btn:before{
     display: none;
+  }
+  .footer__info .header__btn:before{
+    display: block;
   }
   .header__btn-menu{
     display: block;
@@ -33,9 +107,42 @@
     padding-left: 0;
   }
 }
+@media (max-width: 600px){
+  .services__item{
+    max-width: 100%;
+    min-height: 375px;
+    margin: 30px auto;
+  }
+  .about{
+    text-align: center;
+  }
+  .about__title{
+    font-size: 20px;
+  }
+  .about__text{
+    font-size: 16px;
+  }
+}
+@media (max-width: 414px){
+  .slider__title{
+    font-size: 24px;
+  }
+  .slider__text{
+    font-size: 16px;
+  }
+}
 @media (max-width: 400px){
   .header__btn:before{
     display: block;
+  }
+  .advantages__item{
+    padding: 0;
+  }
+  .gallery__items{
+    margin: 0;
+  }
+  .gallery__items img{
+    padding: 0;
   }
 }
 @media (max-width: 375px){
