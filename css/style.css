@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: 'PT Serif', serif;
-  /*font-family: 'Roboto', sans-serif;*/
+  /* font-family: 'PT Serif', serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -440,7 +440,7 @@ li {
 .gallery__items img{
   transition: 1s;
   padding: 15px;
-  max-width: 350px;
+  max-width: 250px;
 }
 .gallery__items img:hover{
   filter: grayscale(100%);
@@ -459,7 +459,6 @@ li {
 }
 .footer__map{
   padding-top: 10px;
-  max-width: 630px;
   width: 100%;
 }
 .footer__map iframe{
