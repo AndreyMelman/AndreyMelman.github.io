@@ -618,7 +618,7 @@ li {
 
 /* Модальное окно */
 #modal {
-	width: 300px;
+	width: 400px;
 	padding: 30px;
 	border-radius: 10px;
 	box-shadow: 0 4px 16px #cccccc;
@@ -684,11 +684,12 @@ li {
 	font-size: 16px;
 	outline: none;
 }
-.formaa__text:focus{
+
+.formaa__text:focus {
 	border: 1px solid #1a73a8;
 	border-radius: 8px;
 	padding: 8px 0px 8px 10px;
-} 
+}
 
 .header__btn-menu {
 	display: none;
@@ -718,5 +719,3 @@ li {
 .arrowUp:hover {
 	background-position: 100% 0;
 }
-
-.arrowUp2 {}
