@@ -38,3 +38,7 @@ jQuery(document).ready(function(){
         event.preventDefault();
     });
 });
+
+jQuery(function($){
+	$("#phone").mask("+375(99)-999-99-99");
+ });

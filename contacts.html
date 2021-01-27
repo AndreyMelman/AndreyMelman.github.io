@@ -105,18 +105,34 @@
     </div>
   </footer>
   <div id="modal">
-    <form>
-      <input type="text" placeholder="Ваше имя">
-      <input type="text" placeholder="Ваш телефон">
-      <input type="submit" value="Отправить">
-    </form>
-  </div>
+		<form class="form__new">
+			<h1 class="form__title">Оставить заявку</h1>
+			<h2 class="form__title2">Если у вас есть вопросы связанные с эвакуацией, узнать по стоимости, вызвать</h2>
+			<div class="form__group">
+				<input class="form__input" placeholder="Ваш имя" name="name" maxlength="15">
+			</div>
+			<div class="form__group">
+				<input id="phone" type="tel" class="form__input" placeholder="Ваш телефон *" name="phone" required>
+			</div>
+			<div class="form__group">
+				<textarea name="email" rows="5" maxlength="200" placeholder="Введите текст сообщения" class="form__text"
+					name="email"></textarea>
+			</div>
+			<button class="form__button">Отправить</button>
+		</form>
+	</div>
 
-  <script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js" data-key="s924bLhG"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/lightbox-plus-jquery.min.js"></script>
-  <script src="js/main.js"></script>
+	<a href="#" class="arrowUp">
+		<i class="fas fa-arrow-up"></i>
+	</a>
+  <script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js"
+		data-key="s924bLhG"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/fotorama.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/sweetalert.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>

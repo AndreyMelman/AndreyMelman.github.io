@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/fotorama.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -23,8 +24,9 @@
       <div class="container">
         <div class="header__contacts">
           <a class="header__phone" href="tel:375336698296">+375 33 669 82 96</a>
-          <a class="header__email" href="https://www.instagram.com/evakuator_molo_city/" target="_blank">evakuator_molo_city</a>
-          <a  class="header__btn" href="tel:375336698296">Вызвать эвакуатор</a>
+          <a class="header__email" href="https://www.instagram.com/evakuator_molo_city/"
+            target="_blank">evakuator_molo_city</a>
+          <a class="header__btn" href="tel:375336698296">Вызвать эвакуатор</a>
         </div>
       </div>
     </div>
@@ -58,7 +60,27 @@
           О компании
         </div>
         <div class="about__text">
-          Наша компания оказывает профессиональные услуги эвакуации в Молодечно и всех районах Минской области. Вы можете вызвать эвакуатор круглосуточно, 7 дней в неделю. Мы перевозим легковые авто с любым дорожным просветом, внедорожники мото- и спецтехнику, грузовые машины, автобусы. Быстро эвакуируем как новое, так и неисправное ТС, вне зависимости от характера и степени поломки.
+          <p>Наша компания оказывает профессиональные услуги эвакуации в Молодечно и всех районах Минской области. Вы
+            можете вызвать эвакуатор круглосуточно, 7 дней в неделю. Мы перевозим легковые авто с любым дорожным
+            просветом, внедорожники мото- и спецтехнику, грузовые машины, автобусы. Быстро эвакуируем как новое, так и
+            неисправное ТС, вне зависимости от характера и степени поломки.</p>
+          <p>Наша компания быстро и без проблем осуществит эвакуацию вашего автомобиля в случае непредвиденной поломки,
+            ДТП, при заблокированных колесах или рулевого управления. Мы придем к Вам на помощь в самых разнообразных
+            дорожно-транспортных ситуациях. Ваше автотранспортное средство любой модификации и тоннажа, будь то легкий
+            квадроцикл или мотоцикл, малолитражныя легковушка или вместительный минивэн, джип или любой другой
+            внедорожник, спецтехника или мощный автопоезд, будет в наших нидежных руках. Для нас не существует
+            невыполнимых задач!</p>
+          <p>Для того, чтобы наши специалисты во время приема заказа на эвакуацию Вашего атомобиля как можно точнее
+            обозначили вам цену на услуги, Вам необходимо будет максимально точно предоставить им такие данные, как:
+            <ul>
+              <li>- Марка и модель ваего автотранспортного средства, по возможности - его вес.</li>
+              <li>- Где находится Ваше автотранспортное средство.</li>
+              <li>- Планируемое место доставки вашего транспорта.</li>
+              <li>- При необходимости - сколько колес заблокировано</li>
+              <li>- Есть ли у авто сложные повреждения, такие, как блокировка руля в нестандартном положении, блокировка коробки переключения передач, наличие оторванных колес.</li>
+            </ul>
+          </p>
+
         </div>
       </div>
     </div>
@@ -72,31 +94,21 @@
           </div>
         </div>
       </div>
-      <div class="gallery__items">
-        <a href="images/car1.jpg" data-lightbox="mygallery" data-title="car1"><img src="images/car1-small.jpg"
-            alt="car"></a>
-        <a href="images/car2.jpg" data-lightbox="mygallery" data-title="car2"><img src="images/car2-small.jpg"
-            alt="car"></a>
-        <a href="images/car3.jpg" data-lightbox="mygallery" data-title="car3"><img src="images/car3-small.jpg"
-            alt="car"></a>
-        <a href="images/car4.jpg" data-lightbox="mygallery" data-title="car4"><img src="images/car4-small.jpg"
-            alt="car"></a>
-        <a href="images/car1.jpg" data-lightbox="mygallery" data-title="car5"><img src="images/car1-small.jpg"
-            alt="car"></a>
-        <a href="images/car2.jpg" data-lightbox="mygallery" data-title="car6"><img src="images/car2-small.jpg"
-            alt="car"></a>
-        <a href="images/car3.jpg" data-lightbox="mygallery" data-title="car7"><img src="images/car3-small.jpg"
-            alt="car"></a>
-        <a href="images/car4.jpg" data-lightbox="mygallery" data-title="car8"><img src="images/car4-small.jpg"
-            alt="car"></a>
-        <a href="images/car1.jpg" data-lightbox="mygallery" data-title="car9"><img src="images/car1-small.jpg"
-            alt="car"></a>
-        <a href="images/car1.jpg" data-lightbox="mygallery" data-title="car10"><img src="images/car1-small.jpg"
-            alt="car"></a>
-        <a href="images/car3.jpg" data-lightbox="mygallery" data-title="car7"><img src="images/car3-small.jpg"
-            alt="car"></a>
-        <a href="images/car4.jpg" data-lightbox="mygallery" data-title="car8"><img src="images/car4-small.jpg"
-            alt="car"></a>
+      <div class="fotogram">
+        <div class="fotorama" data-nav="thumbs" data-thumbwidth="144" data-thumbheight="96">
+          <a href="images/car1.jpg"><img src="images/car1-small.jpg"></a>
+          <a href="images/car2.jpg"><img src="images/car2-small.jpg"></a>
+          <a href="images/car3.jpg"><img src="images/car3-small.jpg"></a>
+          <a href="images/car4.jpg"><img src="images/car4-small.jpg"></a>
+          <a href="images/car5.jpg"><img src="images/car5-small.jpg"></a>
+          <a href="images/car6.jpg"><img src="images/car6-small.jpg"></a>
+          <a href="images/car7.jpg"><img src="images/car7-small.jpg"></a>
+          <a href="images/car8.jpg"><img src="images/car8-small.jpg"></a>
+          <a href="images/car9.jpg"><img src="images/car9-small.jpg"></a>
+          <a href="images/car10.jpg"><img src="images/car10-small.jpg"></a>
+          <a href="images/car10.jpg"><img src="images/car11-small.jpg"></a>
+          <a href="images/car12.jpg"><img src="images/car12-small.jpg"></a>
+        </div>
       </div>
     </div>
   </section>
@@ -106,7 +118,7 @@
         <div class="footer__inner">
           <div class="footer__info">
             <div class="footer__title">
-              Эвакуатор в Молодечно и районе 
+              Эвакуатор в Молодечно и районе
             </div>
             <div class="footer__text">
               Услуги эвакуатора в Молодечно, области и городам Беларуси
@@ -136,18 +148,17 @@
       </div>
     </div>
   </footer>
-  <div id="modal">
-    <form>
-      <input type="text" placeholder="Ваше имя">
-      <input type="text" placeholder="Ваш телефон">
-      <input type="submit" value="Отправить">
-    </form>
-  </div>
-  
-  <script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js" data-key="s924bLhG"></script>
+  <a href="#" class="arrowUp">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js"
+    data-key="s924bLhG"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/fotorama.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/sweetalert.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
