@@ -35,6 +35,15 @@ jQuery(document).ready(function(){
 					showConfirmButton: false,
 					timer: 2000
 				})
+			},
+			error: function () {
+				$.fancybox.close();
+				swal({
+					title: "Попробуйте позже!",
+					type: "error",
+					showConfirmButton: false,
+					timer: 2000
+				})
 			}
 
         });
