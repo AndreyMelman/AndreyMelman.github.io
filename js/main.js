@@ -27,12 +27,16 @@ jQuery(document).ready(function(){
 			type: "POST", // Метод отправки
 			url: "http://138.68.103.110:8080/sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
-			success: swal({
-				title: "Спасибо за заявку!",
-                type: "success",
-                showConfirmButton: false,
-                timer: 2000
-            })
+			success: function() {
+				$.fancybox.close();
+				swal({
+					title: "Спасибо за заявку!",
+					type: "success",
+					showConfirmButton: false,
+					timer: 2000
+				})
+			}
+
         });
         $(this).find('input, textarea').prop('disabled', true);
         event.preventDefault();
