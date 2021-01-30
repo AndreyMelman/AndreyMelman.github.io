@@ -107,12 +107,12 @@
   <div id="modal">
 		<form class="form__new">
 			<h1 class="form__title">Оставить заявку</h1>
-			<h2 class="form__title2">Если у вас есть вопросы связанные с эвакуацией, узнать по стоимости, вызвать</h2>
+			<h2 class="form__title2">Если у вас возникли вопросы связанные с эвакуацией, Вам нужно заказать эвакуатор на определенное время, узнать по стоимости, ответить на интересующие вас впросы, Вы можете оставить нам сообщение и Вам перезвонят. </h2>
 			<div class="form__group">
-				<input class="form__input" placeholder="Ваш имя" name="name" maxlength="15">
+				<input class="form__input" placeholder="Ваш имя *" name="name" maxlength="15" required>
 			</div>
 			<div class="form__group">
-				<input id="phone" type="tel" class="form__input" placeholder="Ваш телефон *" name="phone" required>
+				<input id="phone" type="tel" class="form__input" placeholder="Ваш телефон *" name="phone" required maxlength="15" pattern="[0-9]{15}">
 			</div>
 			<div class="form__group">
 				<textarea name="email" rows="5" maxlength="200" placeholder="Введите текст сообщения" class="form__text"

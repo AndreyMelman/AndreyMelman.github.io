@@ -1,8 +1,10 @@
 @media (max-width: 1150px){
-  .services__items{
+  .services__items,
+  .partners__items{
     display: block;
   }
-  .services__item{
+  .services__item,
+  .partners__item{
     max-width: 80%;
     min-height: 330px;
     margin: 30px auto;
