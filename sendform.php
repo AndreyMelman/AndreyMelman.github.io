@@ -1,4 +1,5 @@
 <?php
+
 //Сбор данных из полей формы. 
 $name = $_POST['name'];// Берём данные из input c атрибутом name="name"
 $phone = $_POST['phone']; // Берём данные из input c атрибутом name="phone"
