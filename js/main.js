@@ -26,6 +26,9 @@ jQuery(document).ready(function(){
 		jQuery.ajax({
 			type: "POST", // Метод отправки
 			crossDomain: true,
+			xhrFields: {
+				withCredentials: true
+			},
 			url: "http://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
 			success: function() {
