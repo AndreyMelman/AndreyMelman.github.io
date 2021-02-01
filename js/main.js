@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
 			xhrFields: {
 				withCredentials: true
 			},
-			url: "http://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
+			url: "https://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
 			success: function() {
 				$.fancybox.close();
