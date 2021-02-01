@@ -25,6 +25,7 @@ jQuery(document).ready(function(){
 		var form_data = jQuery(this).serialize(); // Собираем данные из полей
 		jQuery.ajax({
 			type: "POST", // Метод отправки
+			crossDomain: true,
 			url: "http://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
 			success: function() {
