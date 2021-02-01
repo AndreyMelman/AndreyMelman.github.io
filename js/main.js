@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
 		var form_data = jQuery(this).serialize(); // Собираем данные из полей
 		jQuery.ajax({
 			type: "POST", // Метод отправки
-			url: "https://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
+			url: "http://php.evakuator-molocity.by:8080/sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
 			success: function() {
 				$.fancybox.close();
