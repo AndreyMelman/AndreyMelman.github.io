@@ -40,15 +40,15 @@ jQuery(document).ready(function(){
 					timer: 2000
 				})
 			},
-			// error: function () {
-			// 	$.fancybox.close();
-			// 	swal({
-			// 		title: "Попробуйте позже!",
-			// 		type: "error",
-			// 		showConfirmButton: false,
-			// 		timer: 2000
-			// 	})
-			// }
+			error: function () {
+				$.fancybox.close();
+				swal({
+					title: "Попробуйте позже!",
+					type: "error",
+					showConfirmButton: false,
+					timer: 2000
+				})
+			}
 
         });
         $(this).find('input, textarea').prop('disabled', true);
