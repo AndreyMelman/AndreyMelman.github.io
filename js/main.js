@@ -85,7 +85,7 @@ jQuery(document).ready(function(){
 			timer: 2000
 		})
 	});    	
-        $(this).find('input, textarea').prop('disabled', true);
+        $('input').val("");
         event.preventDefault();
     });
 });
