@@ -56,6 +56,18 @@ $arrowUp.on("click",function(){
     });
 });*/
 
+function handleFormResult(t, text) {
+	$.fancybox.close();
+	swal({
+		title: text,
+		type: t,
+		showConfirmButton: false,
+		timer: 2000
+	});
+	$('input').val("");
+	$('textarea').empty();
+}
+
 jQuery(document).ready(function(){
 	jQuery("form").submit(function() { // Событие отправки с формы
 	var form_data = jQuery(this).serialize(); // Собираем данные из полей
@@ -68,25 +80,11 @@ jQuery(document).ready(function(){
 	    body: form_data
 	})
 	.then((response) => {if(response.ok){
-		$.fancybox.close();
-		swal({
-			title: "Спасибо за заявку!",
-			type: "success",
-			showConfirmButton: false,
-			timer: 2000
-		})
+		handleFormResult("success", "Спасибо за заявку!")
 	}})
 	.catch (function (error) {
-		$.fancybox.close();
-		swal({
-			title: "Попробуйте позже!",
-			type: "error",
-			showConfirmButton: false,
-			timer: 2000
-		})
+		handleFormResult("error", "Попробуйте позже!")
 	});    	
-        $('input').val("");
-	$('textarea').empty();
         event.preventDefault();
     });
 });
