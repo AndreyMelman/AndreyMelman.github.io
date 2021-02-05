@@ -74,8 +74,7 @@ jQuery(document).ready(function(){
 	fetch('https://php.evakuator-molocity.by/sendform.php', {
 	    method: 'post',
 	    headers: {
-		'Accept': 'application/json, text/plain, */*',
-		'Content-Type': 'application/json'
+		'Content-Type': 'application/x-www-form-urlencoded',
 	    },
 	    body: form_data
 	})
