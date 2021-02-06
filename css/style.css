@@ -472,12 +472,45 @@ li {
 }
 .partners__contact{
 	padding-bottom: 20px;
+	text-align: center;
 }
 .partners__contact a{
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.25px;
 	color:  #212020;
+	padding-bottom: 5px;
+}
+
+.partners__contact a:hover{
+	color: #ffc222;
+}
+.partners__phone {
+	padding-left: 20px;
+	padding-right: 30px;
+	position: relative;
+}
+
+.partners__phone:before {
+	content: "\f095";
+	font-family: 'icomoon';
+	position: absolute;
+	left: 0;
+	color: #ffc222;
+}
+
+.partners__email {
+	padding-left: 20px;
+	padding-right: 55px;
+	position: relative;
+}
+
+.partners__email:before {
+	content: "\f16d";
+	font-family: 'icomoon';
+	position: absolute;
+	left: 0;
+	color: #ffc222;
 }
 .advantages {
 	background-image: url(../images/advantage.jpg);
@@ -764,3 +797,4 @@ li {
 .arrowUp:hover {
 	background-position: 100% 0;
 }
+
